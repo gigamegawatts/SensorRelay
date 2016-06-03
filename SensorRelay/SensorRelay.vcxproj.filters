@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{1e61e47c-2dd1-4b22-9ce4-3d9d9eb92675}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{7efb35f6-0571-4da6-9109-33d892b38a0a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{64d19252-9697-44c6-90ab-c1f6424f8283}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{247b6e2b-7c99-44fe-af96-1d8d043a0a2d}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SensorRelay.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMSerial.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMUtils.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="XBee.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMXively.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMWunderground.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClient.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GMBufferedSerial.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="Debug\SensorRelay.cfg" />
+    <None Include="crosscompile.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GMSerial.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMUtils.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="XBee.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMXively.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMWunderground.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="json-forwards.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClient.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="GMBufferedSerial.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
